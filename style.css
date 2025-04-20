@@ -210,3 +210,100 @@ footer button{
     width: 100px;
 }
 
+
+
+
+/* Responsive Design */
+
+@media (max-width: 1024px) {
+    .wtable {
+      width: 95%;
+      height: auto;
+    }
+  
+    .w1, .wd {
+      flex-wrap: wrap;
+      height: auto;
+    }
+  
+    .w1 p, .wd p {
+      width: 45%;
+      margin: 5px 0;
+    }
+  
+    .feature {
+      max-width: 90%;
+      height: auto;
+    }
+  
+    .fcontent {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .fcontent p, .fcontent i {
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    .logo img {
+      height: 80px;
+    }
+  
+    .logotxt {
+      margin-top: 10px;
+    }
+  
+    .weekmenu ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .weekmenu ul li a {
+      width: 100px;
+      margin: 10px auto;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .headcontainer {
+      flex-direction: column;
+    }
+  
+    .logo, .note {
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+    }
+  
+    .note p {
+      font-size: 20px;
+    }
+  
+    .w {
+      min-width: 100%;
+      padding: 0 10px;
+    }
+  
+    .ftext {
+      font-size: 16px;
+      height: auto;
+    }
+  
+    .footer {
+      flex-direction: column;
+      text-align: center;
+      height: auto;
+      padding: 10px;
+    }
+  
+    .btn {
+      width: 80px;
+      height: 40px;
+    }
+  }
+  
+
+
+
+
