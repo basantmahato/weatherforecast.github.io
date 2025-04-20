@@ -106,12 +106,12 @@
 
   function replacew() {
     const div = document.getElementById("print-section");
-    div.innerHTML = '<img src="images/wind.png" alt="Weather Forecast"  max-width: 300px;">';
+    div.innerHTML = '<img src="images/wind.png" alt="Weather Forecast"  style="width: 100%; max-width: 400px;">';
   }
 
   function replaceuv() {
     const div = document.getElementById("print-section");
-    div.innerHTML = '<img src="images/uvindex.png" alt="Weather Forecast"  max-width: 300px;">';
+    div.innerHTML = '<img src="images/uvindex.png" alt="Weather Forecast"  style="width: 100%; max-width: 400px;">';
   }
 
 
