@@ -140,7 +140,7 @@ header{
     border-radius: 5px;
     height:610px;
     width: 1200px ;
-    background-color: #13d7d4;
+    background: linear-gradient(to bottom, #13d7d4, #c5faf9); 
     display: inline-block;
 
 }
